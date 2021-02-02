@@ -1,4 +1,4 @@
-module github.com/google/easypki
+module github.com/Fi1ipe5ant0s/go-pki
 
 go 1.13
 
