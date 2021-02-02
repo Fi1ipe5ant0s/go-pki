@@ -1,34 +1,26 @@
-[![Build
-Status](https://travis-ci.org/google/easypki.svg?branch=master)](https://travis-ci.org/google/easypki)
-[![codecov](https://codecov.io/gh/google/easypki/branch/master/graph/badge.svg)](https://codecov.io/gh/google/easypki)
-
-easypki
+go-pki
 ======
 
 Easy Public Key Infrastructure intends to provide most of the components needed
 to manage a PKI, so you can either use the API in your automation, or use the
 CLI.
 
-# API
+# Prerequisite  
 
-[![godoc](https://godoc.org/github.com/google/easypki?status.svg)](https://godoc.org/github.com/google/easypki)
+You must have Golang installed on your workstation.  
 
-For the latest API:
-
-```
-import "gopkg.in/google/easypki.v1"
-```
-
-## Legacy API
-
-API below pkg/ has been rewritten to allow extensibility in terms of PKI
-storage and better readability.
-
-If you used the legacy API that was only writing files to disk, a tag has been
-applied so you can still import it:
+The CLI was tested using:  
 
 ```
-import "gopkg.in/google/easypki.v0"
+# go version
+go version go1.15.7
+```
+
+Ensure you have exported the gopath:
+
+```
+export GOPATH=/Users/$USER/go
+export PATH=$GOPATH/bin:$PATH
 ```
 
 # CLI
@@ -83,4 +75,4 @@ For more info about available flags, checkout out the help `easypki -h`.
 
 # Disclaimer
 
-This Product was initially created by Google however it was dropped and no longer maintaied since 2017.å
+This Product was initially created by Google however it was dropped and no longer maintaied since 2017.
