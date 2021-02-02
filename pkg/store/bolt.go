@@ -22,7 +22,7 @@ import (
 
 	"fmt"
 
-	"github.com/google/easypki/pkg/certificate"
+	"github.com/Fi1ipe5ant0s/go-pki/pkg/certificate"
 	bolt "go.etcd.io/bbolt"
 )
 

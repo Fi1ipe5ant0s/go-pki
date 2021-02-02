@@ -38,7 +38,7 @@ compatible with openssl, so you are not restrained.
 
 ```
 # Get the CLI:
-go get github.com/google/easypki/cmd/easypki
+go get github.com/Fi1ipe5ant0s/go-pki/cmd/easypki
 
 
 # You can also pass the following through arguments if you do not want to use
@@ -83,4 +83,4 @@ For more info about available flags, checkout out the help `easypki -h`.
 
 # Disclaimer
 
-This is not an official Google product.
+This Product was initially created by Google however it was dropped and no longer maintaied since 2017.å

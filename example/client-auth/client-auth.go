@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/go-yaml/yaml"
-	"github.com/google/easypki/pkg/certificate"
-	"github.com/google/easypki/pkg/easypki"
-	"github.com/google/easypki/pkg/store"
+	"github.com/Fi1ipe5ant0s/go-pki/pkg/certificate"
+	"github.com/Fi1ipe5ant0s/go-pki/pkg/easypki"
+	"github.com/Fi1ipe5ant0s/go-pki/pkg/store"
 	bolt "go.etcd.io/bbolt"
 )
 

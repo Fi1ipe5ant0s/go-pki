@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/easypki/pkg/store"
+	"github.com/Fi1ipe5ant0s/go-pki/pkg/store"
 	bolt "go.etcd.io/bbolt"
 
 	"reflect"
